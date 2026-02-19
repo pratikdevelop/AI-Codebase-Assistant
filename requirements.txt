@@ -1,0 +1,20 @@
+# Web server
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# LangChain
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-openai==0.1.14
+langchain-huggingface==0.0.3
+
+# Embeddings (local CPU, no external service)
+sentence-transformers==3.0.1
+
+# Vector store — FAISS has pre-built Windows wheels, no C++ compiler needed
+faiss-cpu==1.8.0
+
+# Utilities
+pydantic==2.7.4
+python-multipart==0.0.9
+gitpython==3.1.43
